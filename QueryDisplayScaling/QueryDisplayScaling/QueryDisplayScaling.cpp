@@ -5,7 +5,7 @@
 #include <windows.h>
 
 int main(int argc, char** argv) {
-    std::string version = "0.2.0";
+    std::string version = "1.0.0";
 
     args::ArgumentParser parser("QueryDisplayScaling Version " + version + " - GPLv3\nGitHub - https://github.com/deaglebullet\n");
     args::HelpFlag help(parser, "help", "display this help menu", { "help" });
